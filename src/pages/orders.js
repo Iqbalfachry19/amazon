@@ -11,7 +11,7 @@ function Orders({orders}) {
     return (
         <div>
             <Head>
-        <title>Amazon 2.0 My Order</title>
+        <title>Amazon 2.0 My Orders</title>
             </Head>
             <Header />
             <main className="max-w-screen-lg mx-auto p-10">

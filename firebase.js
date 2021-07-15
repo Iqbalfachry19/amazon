@@ -1,13 +1,13 @@
 import firebase from 'firebase'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCrhV_sWCuyex7oEHCA1dkSB81FqwkkZcU",
-    authDomain: "fir-d3292.firebaseapp.com",
-    projectId: "fir-d3292",
-    storageBucket: "fir-d3292.appspot.com",
-    messagingSenderId: "898754497513",
-    appId: "1:898754497513:web:f416bb4df407c0f7d75978"
-  };
+  apiKey: "AIzaSyD92HjB-jnI3IWkhttHhg7Dx_Hl2tks8Lg",
+  authDomain: "fir-fda30.firebaseapp.com",
+  projectId: "fir-fda30",
+  storageBucket: "fir-fda30.appspot.com",
+  messagingSenderId: "159989316951",
+  appId: "1:159989316951:web:94845753ceab57c9ca9212"
+};
 
   const app = !firebase.apps.length ? firebase.initializeApp(firebaseConfig):firebase.app()
   const db = app.firestore()
